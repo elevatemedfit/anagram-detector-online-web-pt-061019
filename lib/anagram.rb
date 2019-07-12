@@ -6,7 +6,7 @@ class Anagram
   end
 
   def match(input)
-     input.map {|w| w.split("").sort == @word.split("").sort}
+     input.select {|w| w.split("").sort == @word.split("").sort}
 
   end
 end# Your code goes here!
