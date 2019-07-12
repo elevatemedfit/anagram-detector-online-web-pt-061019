@@ -10,3 +10,4 @@ class Anagram
       return input
   end
 end# Your code goes here!
+end
